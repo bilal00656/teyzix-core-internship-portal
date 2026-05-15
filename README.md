@@ -36,13 +36,6 @@ $DB_PASS = '';
 $DB_NAME = 'teyzixcore_portal';
 ```
 
-## InfinityFree / Shared Hosting
-
-1. Create a MySQL database in your hosting control panel.
-2. Import `database/teyzixcore_portal.sql` via phpMyAdmin.
-3. Update `config/db.php` with the provided host/user/password/database.
-4. Upload the project folder to `htdocs/` via FTP.
-5. Ensure `uploads/` is writable (chmod 775).
 
 ## File Structure
 ```
@@ -65,6 +58,23 @@ teyzixcore/
 ├── database/teyzixcore_portal.sql
 └── README.md
 ```
+
+## Live Demo
+https://bilal-hassan-teyzix-website-demo.liveblog365.com/
+
+## Developer
+Bilal Hassan
+BS Computer Science Student
+Superior University Lahore
+
+## Installation
+1. Clone repository
+2. Import SQL database
+3. Run on XAMPP or InfinityFree
+
+## Admin Credentials
+Username: admin
+Password: admin123
 
 ## Security Notes
 - All form inputs use prepared statements (no SQL injection).
