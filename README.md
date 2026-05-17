@@ -1,86 +1,246 @@
-# TEYZIX CORE Internship Portal
+# 🚀 TEYZIX CORE Internship Portal
 
-A futuristic full-stack internship portal built with **PHP + MySQL + Bootstrap 5**, branded with the official TEYZIX CORE logo and banner.
+A modern and responsive internship management platform developed for **TEYZIX CORE**.  
+This project provides students with a professional portal to explore internships, apply online, and interact with a futuristic tech-focused platform.
 
-## Features
-- Modern dark/neon-green futuristic UI (glassmorphism, glow, animated background)
-- Fully responsive (mobile / tablet / desktop)
-- Home, Internships, Apply, Contact pages
-- CV upload + MySQL storage
-- Contact form saved to DB
-- Admin panel: dashboard, applications, messages, search, delete, view CV
-- Session-based admin authentication
+Designed with a modern cyber-tech UI, responsive layouts, smooth animations, and a clean user experience.
 
-## Quick Start (XAMPP)
+---
 
-1. Copy the entire `teyzixcore` folder into `C:\xampp\htdocs\`.
-2. Start **Apache** and **MySQL** in XAMPP control panel.
-3. Open <http://localhost/phpmyadmin>
-4. Click **Import** → choose `database/teyzixcore_portal.sql` → **Go**.
-   (This creates the database `teyzixcore_portal` with sample data.)
-5. Visit <http://localhost/teyzixcore/>
+# 🌐 Live Demo
 
-## Admin Access
+🔗 https://bilal-hassan-teyzix-website-demo.liveblog365.com/
 
-- URL: <http://localhost/teyzixcore/admin/login.php>
-- Username: `admin`
-- Password: `admin123`
+---
 
-## Database Config
+# 📌 Features
 
-Edit `config/db.php` if your MySQL credentials differ:
-```php
-$DB_HOST = 'localhost';
-$DB_USER = 'root';
-$DB_PASS = '';
-$DB_NAME = 'teyzixcore_portal';
-```
+## 👨‍🎓 Student Features
+- Browse available internships
+- Apply online through application forms
+- Responsive and user-friendly interface
+- Modern futuristic UI/UX
+- Mobile-friendly design
+- Interactive animations and hover effects
 
+## 🔐 Admin Features
+- Secure admin login
+- Internship management
+- Application management
+- Dashboard interface
+- Form handling and validation
 
-## File Structure
-```
-teyzixcore/
+---
+
+# 🛠 Technologies Used
+
+## Frontend
+- HTML5
+- CSS3
+- JavaScript
+- Bootstrap 5
+
+## Backend
+- PHP
+
+## Database
+- MySQL
+
+## Hosting & Deployment
+- InfinityFree / ProFreeHost
+- GitHub
+
+---
+
+# 🎨 UI Design Highlights
+
+- Neon green cyber-tech theme
+- Glassmorphism inspired sections
+- Responsive navbar and mobile menu
+- Smooth button hover effects
+- Modern typography
+- Professional branding integration
+
+---
+
+# 📂 Project Structure
+
+```bash
+TEYZIX-CORE/
+│
+├── admin/
+├── assets/
+│   ├── css/
+│   ├── js/
+│   ├── images/
+│
+├── includes/
+├── database/
 ├── index.php
 ├── internships.php
 ├── apply.php
 ├── contact.php
-├── admin/
-│   ├── login.php
-│   ├── dashboard.php
-│   ├── applications.php
-│   ├── messages.php
-│   ├── logout.php
-│   └── _layout.php
-├── config/db.php
-├── includes/{header,footer}.php
-├── assets/{css,js,images}/
-├── uploads/         (CV uploads stored here)
-├── database/teyzixcore_portal.sql
-└── README.md
+├── README.md
+└── ...
 ```
 
-## Live Demo
-https://bilal-hassan-teyzix-website-demo.liveblog365.com/
+---
 
-## Developer
-Bilal Hassan
-BS Computer Science Student
-Superior University Lahore
+# ⚙️ Installation Guide
 
-## Installation
-1. Clone repository
-2. Import SQL database
-3. Run on XAMPP or InfinityFree
+## 1️⃣ Clone Repository
 
-## Admin Credentials
-Username: admin
-Password: admin123
-
-## Security Notes
-- All form inputs use prepared statements (no SQL injection).
-- All output is HTML-escaped.
-- CV uploads are extension-validated (pdf/doc/docx) and size-limited (5MB).
-- Change the default admin password before going live (`UPDATE admin_users SET password='your_new_password' WHERE username='admin';`).
+```bash
+git clone https://github.com/your-username/teyzix-core.git
+```
 
 ---
-© TEYZIX CORE — Core of Innovation. Where technology meets vision.
+
+## 2️⃣ Move Project to Server Directory
+
+For XAMPP:
+
+```bash
+htdocs/
+```
+
+For Laragon:
+
+```bash
+www/
+```
+
+---
+
+## 3️⃣ Import Database
+
+1. Open phpMyAdmin
+2. Create a database
+3. Import the SQL file from:
+
+```bash
+database/teyzix_core.sql
+```
+
+---
+
+## 4️⃣ Configure Database Connection
+
+Open:
+
+```bash
+includes/config.php
+```
+
+Update credentials:
+
+```php
+$host = "localhost";
+$user = "root";
+$password = "";
+$database = "teyzix_core";
+```
+
+---
+
+## 5️⃣ Run Project
+
+Open browser:
+
+```bash
+http://localhost/teyzix-core
+```
+
+---
+
+# 📱 Responsive Design
+
+The project is optimized for:
+- Desktop
+- Laptop
+- Tablet
+- Mobile Devices
+
+---
+
+# 🔥 Key Improvements Added
+
+✅ Enhanced TEYZIX CORE branding  
+✅ Mobile responsive navbar  
+✅ Improved neon visibility on dark backgrounds  
+✅ Better typography and spacing  
+✅ Optimized UI consistency  
+✅ Professional landing page structure  
+
+---
+
+# 📸 Screenshots
+
+## Home Page
+- Futuristic hero section
+- Internship CTA buttons
+- Cyber-tech themed branding
+
+## Mobile Responsive View
+- Responsive navigation menu
+- Optimized spacing and typography
+
+---
+
+# 🚀 Future Improvements
+
+- User authentication system
+- Email notifications
+- Internship filtering & search
+- Resume upload system
+- Admin analytics dashboard
+- Dark/Light mode toggle
+- API integration
+
+---
+
+# 👨‍💻 Developer
+
+## Bilal Hassan
+BS Computer Science Student  
+Superior University Lahore  
+
+### Skills
+- Full Stack Web Development
+- C/C++
+- PHP & MySQL
+- JavaScript
+- Responsive UI Design
+- Database Systems
+
+---
+
+# 📬 Contact
+
+## LinkedIn
+Add your LinkedIn profile link here
+
+## GitHub
+Add your GitHub profile link here
+
+---
+
+# ⭐ Support
+
+If you like this project:
+
+- Give it a star ⭐
+- Fork the repository
+- Share feedback
+
+---
+
+# 📄 License
+
+This project is developed for educational and internship purposes.
+
+---
+
+# 💡 TEYZIX CORE
+
+### "Where Technology Meets Vision"
