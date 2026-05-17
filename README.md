@@ -25,6 +25,7 @@ Designed with a modern cyber-tech UI, responsive layouts, smooth animations, and
 
 ## 🔐 Admin Features
 - Secure admin login
+- Default loging: username: admin password: admin123
 - Internship management
 - Application management
 - Dashboard interface
