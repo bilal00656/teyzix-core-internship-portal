@@ -37,7 +37,7 @@
     <hr style="border-color:var(--border);margin:2rem 0 1rem">
     <div class="d-flex flex-wrap justify-content-between align-items-center">
       <small style="color:var(--muted)">© <?= date('Y') ?> TEYZIX CORE. All rights reserved.</small>
-      <small style="color:var(--muted)">Built with <i class="bi bi-heart-fill text-danger"></i> for innovators.</small>
+      <small style="color:var(--muted)"> <i class="bi bi-heart-fill text-danger"></i> Developed By Bilal Hassan.</small>
     </div>
   </div>
 </footer>
@@ -45,4 +45,5 @@
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 <script src="assets/js/main.js"></script>
 </body>
+
 </html>
