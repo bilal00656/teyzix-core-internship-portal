@@ -9,7 +9,7 @@ Designed with a modern cyber-tech UI, responsive layouts, smooth animations, and
 
 # 🌐 Live Demo
 
-🔗 https://bilal-hassan-teyzix-website-demo.liveblog365.com/
+🔗 [https://bilal-hassan-teyzix-website-demo.liveblog365.com/](https://bilal-hassan-teyzixcore-website.liveblog365.com/)
 
 ---
 
@@ -47,7 +47,7 @@ Designed with a modern cyber-tech UI, responsive layouts, smooth animations, and
 - MySQL
 
 ## Hosting & Deployment
-- InfinityFree / ProFreeHost
+- ProFreeHost
 - GitHub
 
 ---
@@ -174,18 +174,6 @@ The project is optimized for:
 
 ---
 
-# 📸 Screenshots
-
-## Home Page
-- Futuristic hero section
-- Internship CTA buttons
-- Cyber-tech themed branding
-
-## Mobile Responsive View
-- Responsive navigation menu
-- Optimized spacing and typography
-
----
 
 # 🚀 Future Improvements
 
@@ -217,11 +205,11 @@ Superior University Lahore
 
 # 📬 Contact
 
-## LinkedIn
-Add your LinkedIn profile link here
+### LinkedIn
+🔗 https://www.linkedin.com/in/bilal-hassan-1a4561331
 
-## GitHub
-Add your GitHub profile link here
+### GitHub
+🔗 https://github.com/bilal00656
 
 ---
 
@@ -241,6 +229,6 @@ This project is developed for educational and internship purposes.
 
 ---
 
-# 💡 TEYZIX CORE
+# 💡 Developed By Bilal Hassan
 
-### "Where Technology Meets Vision"
+### "Always Eager to learn new Technologies."
